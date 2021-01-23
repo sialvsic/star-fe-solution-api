@@ -1,0 +1,30 @@
+{
+  "name": "star-fe-solution-api",
+  "version": "1.0.0",
+  "description": "star-fe-solution web 的后端服务",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index",
+    "app": "pm2 start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sialvsic/star-fe-solution-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sialvsic/star-fe-solution-api/issues"
+  },
+  "homepage": "https://github.com/sialvsic/star-fe-solution-api#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "mongoose": "^5.11.13",
+    "pm2": "^4.5.1"
+  }
+}
